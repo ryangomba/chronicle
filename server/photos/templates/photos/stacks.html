@@ -1,0 +1,33 @@
+{% load static_tags %}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Stacks</title>
+
+    {% css_tag "stacks.css" %}
+
+    <style>
+        .photo {
+            display: inline-block;
+        }
+        img {
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    {% for stack in stacks %}
+    <div class="stack">
+        {% for photo in stack.all_photos %}
+        <div class="photo">
+            <img src="{{ photo.photo_url }}" />
+            {{ photo.ham }} {{ photo.td }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</body>
+</html>
+

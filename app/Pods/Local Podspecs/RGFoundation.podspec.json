@@ -1,0 +1,21 @@
+{
+  "name": "RGFoundation",
+  "version": "2.0.1",
+  "summary": "KVO, geometry, etc.",
+  "homepage": "http://ryangomba.com",
+  "license": "MIT",
+  "authors": {
+    "Ryan Gomba": "ryan@ryangomba.com"
+  },
+  "source": {
+    "git": "git@github.com:ryangomba/RGFoundation.git",
+    "tag": "2.0.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Classes",
+  "resource_bundles": {
+  }
+}

@@ -1,0 +1,245 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* HELPERS */
+
+.fl { float: left; }
+.fr { float: right; }
+.clear { clear: both; }
+
+/* GLOBAL */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #444;
+	padding: 30px;
+	background-color: #eee;
+}
+
+.page {
+	width: 10000px;
+}
+
+/* TYPE */
+
+@font-face {
+	font-family: tungsten;
+	src: url('../type/Tungsten-Book.otf');
+}
+
+/* ENTRIES */
+
+.entry {
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	background-color: #fff;
+	border: solid 1px #ddd;
+	position: relative;
+	padding: 20px;
+}
+
+.entry i.bookmark {
+	position: absolute;
+	right: 20px;
+	width: 20px;
+	height: 56px;
+	background-color: red;
+}
+
+.title,
+.bit {
+	padding: 10px 0px;
+	position: relative;
+	clear: both;
+	background-color: #fff;
+}
+
+.bit.map {
+	height: 100px;
+	background-image: url(../images/map.jpg);
+	background-position: center;
+	background-size: 900px 490px;
+	margin-bottom: 25px;
+}
+
+.bit.map.big {
+	height: 280px;
+}
+
+.photo {
+	float: left;
+	position: relative;
+    -webkit-transform: translateZ(0);
+    background-color: #ddd;
+}
+
+.title,
+.photo,
+.bit {
+	cursor: move;
+}
+
+.bit.ui-sortable-helper {
+	margin-left: -20px;
+	padding: 10px 20px;
+	box-shadow: 0px 0px 3px #999;
+	-webkit-transform: scale(1.1, 1.1);
+	-webkit-transition: -webkit-transform 200ms ease;
+	-webkit-backface-visibility: hidden;
+}
+
+.photo i {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border: solid 1px #fff;
+	/*box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.05);*/
+}
+
+.photo:hover b {
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 24px;
+	height: 24px;
+	background-color: red;
+}
+
+.photo:hover b.hide {
+	right: 5px;
+	background-color: orange;
+}
+
+.photo:hover b.remove {
+	right: 30px;
+	background-color: red;
+}
+
+.photo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.bit.note {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.bit.note p {
+	/*margin-bottom: 10px;*/
+}
+
+.bit.data {
+	font-size: 36px;
+	font-family: tungsten;
+	color: #999;
+}
+
+.value {
+	color: #333;
+}
+
+.title h1, .data h1 {
+	font-size: 42px;
+	margin-bottom: 10px;
+	font-family: tungsten;
+}
+
+.title h2, .venue h1 {
+	font-size: 24px;
+	font-family: tungsten;
+	color: #999;
+}
+
+.venue .time {
+	color: #333;
+	display: inline-block;
+	width: 40px;
+}
+
+.venue p {
+	padding-left: 44px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+/* MODAL */
+
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-page {
+    position: absolute;
+    z-index: 99;
+    width: 50%;
+    height: 80%;
+    left: 25%;
+    top: 10%;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 40px #666;
+}
+

@@ -1,0 +1,29 @@
+{
+  "name": "RGNetworking",
+  "version": "1.0.1",
+  "summary": "Useful wrapper around AFNetworking",
+  "homepage": "http://ryangomba.com",
+  "license": "MIT",
+  "authors": {
+    "Ryan Gomba": "ryangomba@fb.com"
+  },
+  "source": {
+    "git": "git@github.com:ryangomba/RGNetworking.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "RGNetworking/Classes",
+  "resource_bundles": {
+  },
+  "dependencies": {
+    "RGCore": [
+
+    ],
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

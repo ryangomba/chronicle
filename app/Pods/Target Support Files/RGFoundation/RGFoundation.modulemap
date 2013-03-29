@@ -1,0 +1,6 @@
+framework module RGFoundation {
+  umbrella header "RGFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

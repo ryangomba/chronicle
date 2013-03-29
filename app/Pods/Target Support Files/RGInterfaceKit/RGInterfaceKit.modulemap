@@ -1,0 +1,6 @@
+framework module RGInterfaceKit {
+  umbrella header "RGInterfaceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

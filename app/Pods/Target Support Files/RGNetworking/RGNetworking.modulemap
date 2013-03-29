@@ -1,0 +1,6 @@
+framework module RGNetworking {
+  umbrella header "RGNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

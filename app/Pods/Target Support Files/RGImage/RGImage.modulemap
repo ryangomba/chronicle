@@ -1,0 +1,6 @@
+framework module RGImage {
+  umbrella header "RGImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+project 'Chronicle/Chronicle.xcodeproj'
+platform :ios, "12.0"
+
+target "Chronicle" do
+
+pod "RGCore", :path => 'vendor/RGCore', :inhibit_warnings => true
+pod "RGFoundation", :path => 'Vendor/RGFoundation', :inhibit_warnings => true
+pod 'RGImage', :path => 'Vendor/RGImage', :inhibit_warnings => true
+pod 'RGInterfaceKit', :path => 'Vendor/RGInterfaceKit', :inhibit_warnings => true
+pod 'RGNetworking', :path => 'Vendor/RGNetworking', :inhibit_warnings => true
+
+pod 'AFNetworking', :inhibit_warnings => true
+pod 'YapDatabase', :inhibit_warnings => true
+pod 'pop', :inhibit_warnings => true
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    end
+  end
+end
+

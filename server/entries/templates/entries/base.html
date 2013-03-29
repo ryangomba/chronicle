@@ -1,0 +1,25 @@
+{% load static_tags %}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Home</title>
+
+    {% css_tag "main.css" %}
+
+    <script type="text/javascript" src="//use.typekit.net/zmi0hop.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    {% js_tag "jquery.js" %}
+    {% js_tag "jquery-ui.js" %}
+
+    {% js_tag "underscore-min.js" %}
+    {% js_tag "backbone-min.js" %}
+    <!-- {% js_tag "backbone-tastiepie.js" %} -->
+
+    {% block scripts %}{% endblock %}
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>

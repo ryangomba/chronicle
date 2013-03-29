@@ -1,0 +1,21 @@
+{
+  "name": "RGCore",
+  "version": "1.0.4",
+  "summary": "Asserts, Logs, Timers, Macros, etc.",
+  "homepage": "http://ryangomba.com",
+  "license": "MIT",
+  "authors": {
+    "Ryan Gomba": "ryan@ryangomba.com"
+  },
+  "source": {
+    "git": "git@github.com:ryangomba/RGCore.git",
+    "tag": "1.0.4"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Headers",
+  "resource_bundles": {
+  }
+}

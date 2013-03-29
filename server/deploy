@@ -1,0 +1,1 @@
+git push heroku master && python scripts/static_deploy.py

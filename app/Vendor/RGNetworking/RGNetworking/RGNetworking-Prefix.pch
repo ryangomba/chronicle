@@ -1,0 +1,14 @@
+//  Copyright 2013-present Ryan Gomba. All rights reserved.
+
+#ifndef RGNetworking_RGNetworking_Prefix_pch
+#define RGNetworking_RGNetworking_Prefix_pch
+
+#import <Foundation/Foundation.h>
+
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
+
+#endif

@@ -1,0 +1,6 @@
+@mixin transition($attribute, $duration, $curve) {
+    -webkit-transition: $attribute $duration $curve;
+    -moz-transition: $attribute $duration $curve;
+    -o-transition: $attribute $duration $curve;
+    transition: $attribute $duration $curve;
+}

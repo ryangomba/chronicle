@@ -1,0 +1,27 @@
+{
+    "name": "chronicle",
+    "description": "Chronicle",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "4.4.4",
+        "redis": "*",
+        "body-parser": "*",
+        "morgan": "*",
+        "react": "~0.10.0",
+        "react-async": "~0.9.1",
+        "express-react-views": "*",
+        "node-jsx": "~0.10.0",
+        "superagent": "~0.18.0",
+        "fibers": "~1.0.1",
+        "node-sass": "*",
+        "aws-sdk": "*",
+        "fbgraph": "*",
+        "passport": "*",
+        "passport-facebook": "*",
+        "cookie-session": "*",
+        "cookie-parser": "*",
+        "method-override": "*",
+        "moment": "*"
+    }
+}

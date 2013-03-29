@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0D344EDEC4CBEFCF646BA5 /* libPods-RGNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C27B26B6271641CB35441 /* libPods-RGNetworking.a */; };
+		94AD4E4619DE0CBF00D82168 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E2E19DE0CBF00D82168 /* NSString+MD5.m */; };
+		94AD4E4719DE0CBF00D82168 /* NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3019DE0CBF00D82168 /* NSURL+Parameters.m */; };
+		94AD4E4819DE0CBF00D82168 /* RGBulkImageRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3219DE0CBF00D82168 /* RGBulkImageRequestManager.m */; };
+		94AD4E4919DE0CBF00D82168 /* RGCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3419DE0CBF00D82168 /* RGCache.mm */; };
+		94AD4E4A19DE0CBF00D82168 /* RGDataUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3619DE0CBF00D82168 /* RGDataUpload.m */; };
+		94AD4E4B19DE0CBF00D82168 /* RGDecodedImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3819DE0CBF00D82168 /* RGDecodedImageCache.m */; };
+		94AD4E4C19DE0CBF00D82168 /* RGImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3B19DE0CBF00D82168 /* RGImageLoader.m */; };
+		94AD4E4D19DE0CBF00D82168 /* RGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3D19DE0CBF00D82168 /* RGImageView.m */; };
+		94AD4E4E19DE0CBF00D82168 /* RGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E3F19DE0CBF00D82168 /* RGRequest.m */; };
+		94AD4E4F19DE0CBF00D82168 /* RGRequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E4119DE0CBF00D82168 /* RGRequestError.m */; };
+		94AD4E5019DE0CBF00D82168 /* RGService.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E4319DE0CBF00D82168 /* RGService.m */; };
+		94AD4E5119DE0CBF00D82168 /* UIImage+Decode.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD4E4519DE0CBF00D82168 /* UIImage+Decode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94AD4E1319DE0C9C00D82168 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E06451BCF7C6F6852EF8A78 /* Pods-RGNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGNetworking.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-RGNetworking/Pods-RGNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		732C27B26B6271641CB35441 /* libPods-RGNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RGNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AD4E1519DE0C9C00D82168 /* libRGNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRGNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AD4E2D19DE0CBF00D82168 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		94AD4E2E19DE0CBF00D82168 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		94AD4E2F19DE0CBF00D82168 /* NSURL+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Parameters.h"; sourceTree = "<group>"; };
+		94AD4E3019DE0CBF00D82168 /* NSURL+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Parameters.m"; sourceTree = "<group>"; };
+		94AD4E3119DE0CBF00D82168 /* RGBulkImageRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBulkImageRequestManager.h; sourceTree = "<group>"; };
+		94AD4E3219DE0CBF00D82168 /* RGBulkImageRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBulkImageRequestManager.m; sourceTree = "<group>"; };
+		94AD4E3319DE0CBF00D82168 /* RGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCache.h; sourceTree = "<group>"; };
+		94AD4E3419DE0CBF00D82168 /* RGCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RGCache.mm; sourceTree = "<group>"; };
+		94AD4E3519DE0CBF00D82168 /* RGDataUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGDataUpload.h; sourceTree = "<group>"; };
+		94AD4E3619DE0CBF00D82168 /* RGDataUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGDataUpload.m; sourceTree = "<group>"; };
+		94AD4E3719DE0CBF00D82168 /* RGDecodedImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGDecodedImageCache.h; sourceTree = "<group>"; };
+		94AD4E3819DE0CBF00D82168 /* RGDecodedImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGDecodedImageCache.m; sourceTree = "<group>"; };
+		94AD4E3919DE0CBF00D82168 /* RGFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGFileInfo.h; sourceTree = "<group>"; };
+		94AD4E3A19DE0CBF00D82168 /* RGImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGImageLoader.h; sourceTree = "<group>"; };
+		94AD4E3B19DE0CBF00D82168 /* RGImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGImageLoader.m; sourceTree = "<group>"; };
+		94AD4E3C19DE0CBF00D82168 /* RGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGImageView.h; sourceTree = "<group>"; };
+		94AD4E3D19DE0CBF00D82168 /* RGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGImageView.m; sourceTree = "<group>"; };
+		94AD4E3E19DE0CBF00D82168 /* RGRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRequest.h; sourceTree = "<group>"; };
+		94AD4E3F19DE0CBF00D82168 /* RGRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRequest.m; sourceTree = "<group>"; };
+		94AD4E4019DE0CBF00D82168 /* RGRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGRequestError.h; sourceTree = "<group>"; };
+		94AD4E4119DE0CBF00D82168 /* RGRequestError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGRequestError.m; sourceTree = "<group>"; };
+		94AD4E4219DE0CBF00D82168 /* RGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGService.h; sourceTree = "<group>"; };
+		94AD4E4319DE0CBF00D82168 /* RGService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGService.m; sourceTree = "<group>"; };
+		94AD4E4419DE0CBF00D82168 /* UIImage+Decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Decode.h"; sourceTree = "<group>"; };
+		94AD4E4519DE0CBF00D82168 /* UIImage+Decode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Decode.m"; sourceTree = "<group>"; };
+		94AD4E5219DE0FBD00D82168 /* RGNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGNetworking-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		94AD4E5319DE106E00D82168 /* RGTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGTypes.h; sourceTree = "<group>"; };
+		CB76094B1F23AE6D5B5A3350 /* Pods-RGNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGNetworking.release.xcconfig"; path = "../Pods/Target Support Files/Pods-RGNetworking/Pods-RGNetworking.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94AD4E1219DE0C9C00D82168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0D344EDEC4CBEFCF646BA5 /* libPods-RGNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1E3BFB201BE3A51D10D159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E06451BCF7C6F6852EF8A78 /* Pods-RGNetworking.debug.xcconfig */,
+				CB76094B1F23AE6D5B5A3350 /* Pods-RGNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		889FD72DA097F37B8BEC6ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732C27B26B6271641CB35441 /* libPods-RGNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AD4E0C19DE0C9C00D82168 = {
+			isa = PBXGroup;
+			children = (
+				94AD4E5219DE0FBD00D82168 /* RGNetworking-Prefix.pch */,
+				94AD4E2C19DE0CBF00D82168 /* Classes */,
+				94AD4E1619DE0C9C00D82168 /* Products */,
+				2E1E3BFB201BE3A51D10D159 /* Pods */,
+				889FD72DA097F37B8BEC6ABE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94AD4E1619DE0C9C00D82168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94AD4E1519DE0C9C00D82168 /* libRGNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94AD4E2C19DE0CBF00D82168 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94AD4E5319DE106E00D82168 /* RGTypes.h */,
+				94AD4E2D19DE0CBF00D82168 /* NSString+MD5.h */,
+				94AD4E2E19DE0CBF00D82168 /* NSString+MD5.m */,
+				94AD4E2F19DE0CBF00D82168 /* NSURL+Parameters.h */,
+				94AD4E3019DE0CBF00D82168 /* NSURL+Parameters.m */,
+				94AD4E3119DE0CBF00D82168 /* RGBulkImageRequestManager.h */,
+				94AD4E3219DE0CBF00D82168 /* RGBulkImageRequestManager.m */,
+				94AD4E3319DE0CBF00D82168 /* RGCache.h */,
+				94AD4E3419DE0CBF00D82168 /* RGCache.mm */,
+				94AD4E3519DE0CBF00D82168 /* RGDataUpload.h */,
+				94AD4E3619DE0CBF00D82168 /* RGDataUpload.m */,
+				94AD4E3719DE0CBF00D82168 /* RGDecodedImageCache.h */,
+				94AD4E3819DE0CBF00D82168 /* RGDecodedImageCache.m */,
+				94AD4E3919DE0CBF00D82168 /* RGFileInfo.h */,
+				94AD4E3A19DE0CBF00D82168 /* RGImageLoader.h */,
+				94AD4E3B19DE0CBF00D82168 /* RGImageLoader.m */,
+				94AD4E3C19DE0CBF00D82168 /* RGImageView.h */,
+				94AD4E3D19DE0CBF00D82168 /* RGImageView.m */,
+				94AD4E3E19DE0CBF00D82168 /* RGRequest.h */,
+				94AD4E3F19DE0CBF00D82168 /* RGRequest.m */,
+				94AD4E4019DE0CBF00D82168 /* RGRequestError.h */,
+				94AD4E4119DE0CBF00D82168 /* RGRequestError.m */,
+				94AD4E4219DE0CBF00D82168 /* RGService.h */,
+				94AD4E4319DE0CBF00D82168 /* RGService.m */,
+				94AD4E4419DE0CBF00D82168 /* UIImage+Decode.h */,
+				94AD4E4519DE0CBF00D82168 /* UIImage+Decode.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94AD4E1419DE0C9C00D82168 /* RGNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AD4E2619DE0C9C00D82168 /* Build configuration list for PBXNativeTarget "RGNetworking" */;
+			buildPhases = (
+				9897246A41901F13C2A61DCD /* Check Pods Manifest.lock */,
+				94AD4E1119DE0C9C00D82168 /* Sources */,
+				94AD4E1219DE0C9C00D82168 /* Frameworks */,
+				94AD4E1319DE0C9C00D82168 /* CopyFiles */,
+				EBAF6F466C0ACB97F71AAA4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGNetworking;
+			productName = RGNetworking;
+			productReference = 94AD4E1519DE0C9C00D82168 /* libRGNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94AD4E0D19DE0C9C00D82168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ryan Gomba";
+				TargetAttributes = {
+					94AD4E1419DE0C9C00D82168 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 94AD4E1019DE0C9C00D82168 /* Build configuration list for PBXProject "RGNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94AD4E0C19DE0C9C00D82168;
+			productRefGroup = 94AD4E1619DE0C9C00D82168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94AD4E1419DE0C9C00D82168 /* RGNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9897246A41901F13C2A61DCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAF6F466C0ACB97F71AAA4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-RGNetworking/Pods-RGNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94AD4E1119DE0C9C00D82168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AD4E4719DE0CBF00D82168 /* NSURL+Parameters.m in Sources */,
+				94AD4E4A19DE0CBF00D82168 /* RGDataUpload.m in Sources */,
+				94AD4E4B19DE0CBF00D82168 /* RGDecodedImageCache.m in Sources */,
+				94AD4E5019DE0CBF00D82168 /* RGService.m in Sources */,
+				94AD4E4E19DE0CBF00D82168 /* RGRequest.m in Sources */,
+				94AD4E4619DE0CBF00D82168 /* NSString+MD5.m in Sources */,
+				94AD4E4F19DE0CBF00D82168 /* RGRequestError.m in Sources */,
+				94AD4E5119DE0CBF00D82168 /* UIImage+Decode.m in Sources */,
+				94AD4E4819DE0CBF00D82168 /* RGBulkImageRequestManager.m in Sources */,
+				94AD4E4C19DE0CBF00D82168 /* RGImageLoader.m in Sources */,
+				94AD4E4919DE0CBF00D82168 /* RGCache.mm in Sources */,
+				94AD4E4D19DE0CBF00D82168 /* RGImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94AD4E2419DE0C9C00D82168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "RGNetworking-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94AD4E2519DE0C9C00D82168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "RGNetworking-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94AD4E2719DE0C9C00D82168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E06451BCF7C6F6852EF8A78 /* Pods-RGNetworking.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94AD4E2819DE0C9C00D82168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB76094B1F23AE6D5B5A3350 /* Pods-RGNetworking.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94AD4E1019DE0C9C00D82168 /* Build configuration list for PBXProject "RGNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AD4E2419DE0C9C00D82168 /* Debug */,
+				94AD4E2519DE0C9C00D82168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AD4E2619DE0C9C00D82168 /* Build configuration list for PBXNativeTarget "RGNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AD4E2719DE0C9C00D82168 /* Debug */,
+				94AD4E2819DE0C9C00D82168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94AD4E0D19DE0C9C00D82168 /* Project object */;
+}

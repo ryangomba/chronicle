@@ -1,0 +1,13 @@
+xcodeproj 'RGNetworking/RGNetworking.xcodeproj'
+platform :ios, "8.0"
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:ryangomba/RGPodspecs.git'
+
+target "RGNetworking" do
+
+pod 'RGCore'
+
+pod 'AFNetworking'
+
+end
